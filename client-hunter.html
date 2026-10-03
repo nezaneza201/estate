@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b0d0c">
+<meta name="description" content="Client Hunter AI — prospect audit and sales pitch generator for Instagram businesses.">
+<title>CLIENT HUNTER AI — Prospecting Agent</title>
+<style>
+:root{--bg:#090b0a;--panel:#111512;--panel2:#161b17;--text:#f4f1e8;--muted:#9ea59d;--line:#27302a;--gold:#d9b66f;--green:#89c49a;--red:#e88787;--max:1200px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 75% 0%,rgba(217,182,111,.10),transparent 28%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.55}
+.wrap{width:min(calc(100% - 34px),var(--max));margin:auto}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:900;letter-spacing:.17em}.brand span{color:var(--gold)}.nav a{color:#dfe2dc;text-decoration:none;font-size:13px}.hero{padding:65px 0 38px}.eyebrow,.kicker{color:var(--gold);font-size:11px;font-weight:900;letter-spacing:.18em;text-transform:uppercase}.hero h1{font-size:clamp(46px,7vw,86px);line-height:.94;margin:20px 0 18px;max-width:900px}.hero h1 em{font-family:Georgia,serif;font-weight:400;color:var(--gold)}.hero p{max-width:720px;color:#bec4bd;font-size:18px}.layout{display:grid;grid-template-columns:1.05fr .95fr;gap:18px;align-items:start;padding:20px 0 70px}.panel{background:linear-gradient(180deg,rgba(22,27,23,.96),rgba(13,17,14,.96));border:1px solid var(--line);border-radius:22px;padding:25px;box-shadow:0 20px 60px rgba(0,0,0,.22)}.panel h2{font-size:25px;margin:0 0 7px}.sub{color:var(--muted);font-size:14px;margin:0 0 20px}.field{margin:0 0 13px}.field label{display:block;font-size:12px;color:#d7dad4;font-weight:800;margin-bottom:6px}input,select,textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:13px 14px;background:#0b0e0c;color:var(--text);outline:none}textarea{min-height:88px;resize:vertical}input:focus,select:focus,textarea:focus{border-color:#6a745f}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:10px}.check{display:flex;gap:9px;align-items:flex-start;padding:12px;background:#0c100d;border:1px solid var(--line);border-radius:12px;color:#d7dbd5;font-size:12px}.check input{width:auto;margin-top:3px;accent-color:var(--gold)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.btn{border:1px solid var(--line);border-radius:999px;padding:12px 17px;background:transparent;color:var(--text);font-weight:900;cursor:pointer}.btn.primary{background:var(--gold);border-color:var(--gold);color:#111}.btn.ghost:hover{border-color:#66705f}.result{position:sticky;top:15px}.score-wrap{display:grid;grid-template-columns:140px 1fr;gap:20px;align-items:center}.score{width:140px;height:140px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--gold) 0deg, var(--gold) 0deg, #253027 0deg);position:relative}.score:before{content:"";position:absolute;inset:9px;border-radius:50%;background:var(--panel2)}.score strong{position:relative;font-size:34px}.score small{position:relative;display:block;color:var(--muted);font-size:11px;margin-top:-22px}.grade{display:inline-block;padding:6px 10px;border-radius:999px;background:#20271f;color:#b9d8c0;font-size:11px;font-weight:900}.money{font-size:34px;color:var(--gold);font-weight:900;letter-spacing:-.03em}.recommend{font-size:23px;font-weight:900;margin-top:3px}.reason{color:#b8beb7;font-size:13px}.block{padding:18px 0;border-top:1px solid var(--line)}.block h3{margin:0 0 9px;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--gold)}.issues{display:grid;gap:8px}.issue{display:flex;gap:10px;font-size:13px;color:#d9ddd7}.issue b{color:var(--red)}.pitch{background:#0b0f0c;border:1px solid var(--line);border-radius:14px;padding:15px;white-space:pre-wrap;color:#dfe4dd;font-size:13px}.copyrow{display:flex;gap:8px;margin-top:10px}.mini{font-size:11px;padding:9px 12px}.saved{margin-top:15px}.saved-list{display:grid;gap:8px}.lead{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:12px;background:#0d110e}.lead strong{font-size:13px}.lead span{display:block;color:var(--muted);font-size:11px}.empty{color:var(--muted);font-size:12px}.footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:20px}.hint{font-size:11px;color:#7f877e;margin-top:6px}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.result{position:static}.score-wrap{grid-template-columns:110px 1fr}.score{width:110px;height:110px}.row,.checks{grid-template-columns:1fr}.hero{padding-top:45px}.hero h1{font-size:54px}.footer{display:block}.footer span{display:block;margin-top:5px}}
+</style>
+</head>
+<body>
+<header><nav class="nav wrap"><a class="brand" href="index.html">ESTATE<span>.</span> / HUNTER</a><a href="index.html">← Back to ESTATE</a></nav></header>
+
+<main>
+<section class="hero wrap">
+  <div class="eyebrow">INTERNAL SALES AGENT · CLIENT HUNTER AI</div>
+  <h1>Find the businesses that are <em>worth pitching.</em></h1>
+  <p>Audit an Instagram prospect, score the opportunity, choose the strongest service, estimate a commercial price, and generate a personalized first DM.</p>
+</section>
+
+<section class="wrap layout">
+  <section class="panel">
+    <div class="kicker">01 — PROSPECT INPUT</div>
+    <h2>Tell the Hunter what you saw.</h2>
+    <p class="sub">No Instagram login. No database. The first version works from public profile signals you enter.</p>
+
+    <div class="row">
+      <div class="field"><label>Business / person name</label><input id="name" placeholder="Example: Kigali Homes"></div>
+      <div class="field"><label>Instagram handle</label><input id="handle" placeholder="@kigalihomes"></div>
+    </div>
+    <div class="row">
+      <div class="field"><label>Business type</label>
+        <select id="type">
+          <option>Real estate</option><option>Restaurant / café</option><option>Hotel / Airbnb</option>
+          <option>Salon / beauty</option><option>Fashion / retail</option><option>Professional service</option>
+          <option>Fitness / wellness</option><option>Education</option><option>Other</option>
+        </select>
+      </div>
+      <div class="field"><label>Approx. followers</label><input id="followers" type="number" min="0" placeholder="2500"></div>
+    </div>
+    <div class="row">
+      <div class="field"><label>Posts in last 30 days</label><input id="posts" type="number" min="0" placeholder="6"></div>
+      <div class="field"><label>Reels in last 30 days</label><input id="reels" type="number" min="0" placeholder="2"></div>
+    </div>
+    <div class="field"><label>Bio / offer you saw</label><textarea id="bioText" placeholder="Paste the bio or summarize what the page is selling."></textarea></div>
+    <div class="field"><label>What stood out to you?</label><textarea id="notes" placeholder="Example: good photos, prices hidden, no WhatsApp button, captions weak, page looks inactive..."></textarea></div>
+
+    <div class="kicker" style="margin:25px 0 10px">PROFILE SIGNALS</div>
+    <div class="checks">
+      <label class="check"><input id="clearOffer" type="checkbox"> Clear offer in bio / profile</label>
+      <label class="check"><input id="cta" type="checkbox"> Strong CTA to WhatsApp / call / booking</label>
+      <label class="check"><input id="contact" type="checkbox"> Contact details easy to find</label>
+      <label class="check"><input id="website" type="checkbox"> Good website / landing page</label>
+      <label class="check"><input id="visual" type="checkbox"> Consistent visual branding</label>
+      <label class="check"><input id="listing" type="checkbox"> Products / services clearly presented</label>
+      <label class="check"><input id="socialProof" type="checkbox"> Strong testimonials / social proof</label>
+      <label class="check"><input id="reelsGood" type="checkbox"> Reels look intentional / polished</label>
+      <label class="check"><input id="reply" type="checkbox"> Clear path for enquiries / replies</label>
+      <label class="check"><input id="offers" type="checkbox"> Clear promotions / offers / reasons to buy</label>
+    </div>
+    <div class="hint">Tick what they already do well. The Hunter looks for gaps.</div>
+
+    <div class="actions">
+      <button class="btn primary" id="analyze">⚡ Hunt this client</button>
+      <button class="btn ghost" id="clear">Reset</button>
+    </div>
+  </section>
+
+  <section class="panel result">
+    <div class="kicker">02 — HUNTER REPORT</div>
+    <div id="emptyState" class="empty" style="padding:55px 5px">Your prospect report will appear here. Think of this as your mini sales strategist. 🧠</div>
+    <div id="report" style="display:none">
+      <div class="score-wrap">
+        <div class="score" id="scoreCircle"><div><strong id="score">0</strong><small>/ 100</small></div></div>
+        <div>
+          <span class="grade" id="grade">High potential</span>
+          <div class="recommend" id="service">Instagram Growth Package</div>
+          <div class="reason" id="reason"></div>
+        </div>
+      </div>
+
+      <div class="block"><h3>Commercial opportunity</h3><div class="money" id="price">100K–150K RWF</div><div class="reason" id="upsell"></div></div>
+      <div class="block"><h3>What is probably costing them</h3><div class="issues" id="issues"></div></div>
+      <div class="block"><h3>Your sales angle</h3><div class="pitch" id="angle"></div></div>
+      <div class="block"><h3>First DM</h3><div class="pitch" id="dm"></div><div class="copyrow"><button class="btn mini primary" id="copyDm">Copy DM</button><button class="btn mini" id="waBtn">Open WhatsApp</button></div></div>
+      <div class="block"><h3>Close strategy</h3><div class="pitch" id="close"></div></div>
+      <div class="actions"><button class="btn primary" id="saveLead">＋ Save prospect</button></div>
+    </div>
+
+    <div class="block saved"><h3>Saved prospects</h3><div id="savedList" class="saved-list"></div></div>
+  </section>
+</section>
+</main>
+
+<footer><div class="wrap footer"><span>© 2026 CLIENT HUNTER AI · Internal tool</span><span>Built for practical prospecting · Rwanda 🇷🇼</span></div></footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const money = n => n>=150000 ? '150K–300K RWF' : n>=100000 ? '100K–150K RWF' : n>=60000 ? '60K–100K RWF' : '20K–60K RWF';
+
+function analyze(){
+  const name=$('name').value.trim() || 'This business';
+  const handle=$('handle').value.trim() || '@prospect';
+  const type=$('type').value;
+  const followers=Number($('followers').value||0);
+  const posts=Number($('posts').value||0);
+  const reels=Number($('reels').value||0);
+
+  let score=50;
+  const gaps=[];
+  const good=[];
+  const addGap=(cond,pts,label)=>{if(cond){score+=pts}else{gaps.push(label);}};
+  const checked=id=>$(id).checked;
+
+  addGap(checked('clearOffer'),8,'The offer is not immediately clear from the profile.');
+  addGap(checked('cta'),10,'There is no strong action path from Instagram to an enquiry.');
+  addGap(checked('contact'),6,'Contact details are not easy enough to find.');
+  addGap(checked('website'),8,'The page has no strong website or conversion page.');
+  addGap(checked('visual'),7,'Visual branding is inconsistent or not premium.');
+  addGap(checked('listing'),8,'Products/services are not presented clearly enough.');
+  addGap(checked('socialProof'),5,'There is little visible proof to build buyer trust.');
+  addGap(checked('reelsGood'),7,'Short-form video is a weak or inconsistent growth channel.');
+  addGap(checked('reply'),7,'The enquiry journey looks unclear or manual.');
+  addGap(checked('offers'),4,'There is no obvious reason-to-buy offer or promotion.');
+
+  if(posts===0){score-=3;gaps.push('The profile appears inactive based on recent posting.')}
+  else if(posts<4){score+=3;gaps.push('Posting volume looks light for consistent visibility.')} else {good.push('Reasonable posting activity.')}
+  if(reels===0){score-=2;gaps.push('No recent Reels were reported.')}
+  else if(reels<2){score+=1;gaps.push('Reels activity could be stronger.')} else {good.push('Some short-form activity is already present.')}
+  if(followers>=10000){score+=5;good.push('The audience size can support stronger conversion work.')}
+  else if(followers>=1000){score+=2;good.push('There is an audience base to monetize.')}
+  if($('bioText').value.trim()) score+=2;
+  if($('notes').value.trim()) score+=2;
+
+  score=Math.max(20,Math.min(97,Math.round(score)));
+  let service='Instagram Makeover';
+  let base=30000;
+  let reason='Fix the first impression and make the page easier to understand and act on.';
+  if(!checked('website') && (type==='Real estate'||type==='Hotel / Airbnb'||followers>5000)){service='Website + Instagram Conversion System';base=150000;reason='They have something valuable to sell, but Instagram should push visitors into a clearer conversion page.'}
+  if(!checked('cta') || !checked('reply')){service='Instagram → WhatsApp Lead System';base=Math.max(base,100000);reason='The biggest visible opportunity is turning profile traffic into actual enquiries.'}
+  if(!checked('visual') || !checked('listing')){service='Content + Instagram Makeover';base=Math.max(base,75000);reason='The page needs stronger presentation so products/services feel easier to trust and buy.'}
+  if(reels<2 || !checked('reelsGood')){service='Reels + Content Package';base=Math.max(base,75000);reason='Short-form content is one of the clearest gaps and gives you a simple entry offer.'}
+  if(type==='Professional service' || type==='Education'){service='Lead-focused Instagram Setup';base=Math.max(base,60000);reason='Professional services need a clear offer, proof and frictionless enquiry path.'}
+  if(type==='Restaurant / café' || type==='Salon / beauty' || type==='Fashion / retail'){service='Instagram Content + Conversion Package';base=Math.max(base,75000);reason='Visual presentation plus a strong CTA can make the profile easier to buy from.'}
+
+  const price=money(base);
+  let grade=score>=85?'🔥 HOT PROSPECT':score>=70?'💰 HIGH POTENTIAL':score>=55?'🟡 WORTH TESTING':'⚪ LOW PRIORITY';
+  const bio=$('bioText').value.trim();
+  const notes=$('notes').value.trim();
+  const angle = 'I noticed '+name+' has a real offer, but there are a few places where the Instagram experience could do more of the selling. The pitch should focus on '+reason.toLowerCase()+' For the first conversation, sell the outcome — more enquiries, clearer positioning, and a smoother buyer journey — not “posting.”';
+  const dm = 'Hey '+name+' 👋\n\nI came across '+handle+' and had a quick look at the page. You already have something worth promoting, but I noticed a couple of small things that could make the Instagram → customer journey much stronger.\n\nI help businesses improve their Instagram presentation and turn profile visitors into actual enquiries. I spotted one specific opportunity on your page that I can show you for free.\n\nWould you like me to send it over?';
+  const close = 'Start with the smallest useful offer: '+service+'. Show them one concrete improvement before asking for a big package. Once they agree, anchor the conversation around '+price+' and explain exactly what changes they get. After the first win, upsell monthly content / lead generation.';
+  $('score').textContent=score;
+  $('grade').textContent=grade;
+  $('service').textContent=service;
+  $('reason').textContent=reason;
+  $('price').textContent=price;
+  $('upsell').textContent='Entry offer: '+money(Math.min(base,75000))+'. Upsell after the first result: monthly management, Reels or lead generation.';
+  $('issues').innerHTML=(gaps.length?gaps.slice(0,6):['No major gap detected from the signals entered. Look for a deeper business problem before pitching.']).map(x=>'<div class="issue"><b>×</b><span>'+x+'</span></div>').join('');
+  $('angle').textContent=angle;
+  $('dm').textContent=dm;
+  $('close').textContent=close;
+  $('scoreCircle').style.background='conic-gradient(var(--gold) '+(score*3.6)+'deg,#253027 0deg)';
+  $('emptyState').style.display='none'; $('report').style.display='block';
+  window.currentLead={name,handle,type,followers,score,service,price,dm,created:new Date().toISOString()};
+}
+
+function renderSaved(){
+  const items=JSON.parse(localStorage.getItem('clientHunterLeads')||'[]');
+  $('savedList').innerHTML=items.length?items.map((x,i)=>'<div class="lead"><div><strong>'+x.name+'</strong><span>'+x.handle+' · '+x.service+'</span></div><strong>'+x.score+'/100</strong></div>').join(''):'<div class="empty">No saved prospects yet.</div>';
+}
+$('analyze').onclick=analyze;
+$('clear').onclick=()=>location.reload();
+$('copyDm').onclick=async()=>{if(!window.currentLead)return; await navigator.clipboard.writeText(window.currentLead.dm); $('copyDm').textContent='Copied ✓'; setTimeout(()=>$('copyDm').textContent='Copy DM',1400)};
+$('waBtn').onclick=()=>{const n=encodeURIComponent((window.currentLead?.dm)||'Hello, I noticed your business on Instagram and would love to show you a free improvement idea.'); window.open('https://wa.me/?text='+n,'_blank')};
+$('saveLead').onclick=()=>{if(!window.currentLead)return;const items=JSON.parse(localStorage.getItem('clientHunterLeads')||'[]');items.unshift(window.currentLead);localStorage.setItem('clientHunterLeads',JSON.stringify(items.slice(0,50)));renderSaved();$('saveLead').textContent='Saved ✓';setTimeout(()=>$('saveLead').textContent='＋ Save prospect',1500)};
+renderSaved();
+</script>
+</body>
+</html>
